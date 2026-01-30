@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "start": "node dist/run.js",
-    "dev": "tsx src/run.ts",
+    "start": "node dist/run.js workflow.json",
+    "dev": "tsx src/run.ts workflow.json",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
