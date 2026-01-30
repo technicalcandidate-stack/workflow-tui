@@ -1,8 +1,8 @@
 # @tatch-ai/workflow-tui
 
-> **Note:** This client was rapidly prototyped for exploration and is not production-ready. Review and cleanup recommended before production use.
+A simple terminal (TUI) client for testing and playing with [@tatch-ai/workflow-engine](https://github.com/your-org/workflow-engine). In production you'd use React clients or AI voice clients; this package keeps CLI-only deps (e.g. chalk) out of the engine so they're not transitive for all engine users.
 
-A simple terminal (TUI) client for testing and playing with [@tatch-ai/workflow-engine](https://github.com/your-org/workflow-engine). In production you’d use React clients or AI voice clients; this package keeps CLI-only deps (e.g. chalk) out of the engine so they’re not transitive for all engine users.
+> **Note:** This client was rapidly prototyped for exploration and is not production-ready. Review and cleanup recommended before production use.
 
 ## Run
 
