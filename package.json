@@ -1,0 +1,35 @@
+{
+  "name": "workflow-tui",
+  "version": "0.1.0",
+  "description": "Simple TUI client for testing and playing with the workflow engine",
+  "main": "./dist/run.js",
+  "bin": {
+    "workflow-tui": "./dist/run.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/run.js",
+    "dev": "tsx src/run.ts",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "workflow",
+    "tui",
+    "cli"
+  ],
+  "author": "Harper",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@tatch-ai/workflow-engine": "^0.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.4.0"
+  }
+}
